@@ -121,6 +121,18 @@ TCP Pakete bei einem HTTP Request:
 Jetzt ist die Connection 2 half closed
 
 
+# TCP Stauvermeidung
+
+Tahoe:
+- Wenn timeout ist der threshhold die hälfte
+- Anfang mit slowstart (exp) bis threshhold
+- Bei threshhold additive increase
+
+Tahoe:
+- Wenn timeout ist der threshhold die hälfte
+- Anfang bei threshhold
+- Bei threshhold additive increase
+
 # Hamming Distanz
 
 Code-Buch:
